@@ -1,0 +1,56 @@
+#checkbox-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 100%;
+    width: 25%;
+    background-color: rgba(108, 117, 125, 255);
+    color: aliceblue;
+}
+
+.position-fixed {
+    right: 0px;
+}
+
+.form-check-input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.form-check-label {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.div_graphe {
+    height: 100%;
+    width: 75%;
+    margin: 0px;
+}
+
+
+#plote {
+    width: 200%;
+    height: auto; /* Pour conserver les proportions de l'image */
+}
+
+.btn_msg {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid #ccc;
+}
+
+
+.btn1 {
+    width: 100%; 
+    margin-left: 5%;
+}
+.btn2 {
+    width: 100%; 
+    margin: 0%;
+    opacity: 0.5;
+}
+
+.colone{
+    padding: 0%;
+}

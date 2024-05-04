@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TransTrack</title>
+    <!-- Include eel.js - note this file doesn't exist in the 'web' directory -->
+    <script type="text/javascript" src="/eel.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- notre  fichier css -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Notre fichier JavaScript -->
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container-bv">
+        <h3 class="bv">Bienvenue sur TransTrack !</h3>
+        <p class="p-txt">Cette application vous permet de parcourir et de découvrir les différentes étapes de transmission d'une séquence binaire.</p>
+    </div>
+
+    <h4 class="text-center" >Sélectionner une option :</h4>
+
+    <div class="container">
+        <div class="row  margin_btn">
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary " id="btn-open">chaine binaire transmit</button>
+            </div>
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary " id="codeur_enligne">codage en ligne</button>
+            </div>
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary ">signale d'emission filtrer</button>
+            </div>
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary ">modulation</button>
+            </div>
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary">signale avec bruit</button>
+            </div>
+        </div>
+
+    
+        <div class="row  margin_btn">
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary btne">demodulation</button>
+            </div>
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary ">signal de reception filtrer</button>
+            </div>
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary ">recuperation d'horloge</button>
+            </div>
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary ">decision</button>
+            </div>
+            <div class="col col-btn">
+                <button type="button" class="btn btn-secondary ">chaine binaire recue</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

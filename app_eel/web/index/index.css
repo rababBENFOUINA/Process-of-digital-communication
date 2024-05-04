@@ -1,0 +1,87 @@
+
+.margin_btn{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid black;
+    transform: rotate(90deg); /* Rotate the arrow to point from top to bottom */
+    margin-top: 20px; /* Adjust margin-top to align with buttons */
+
+    
+}
+.arrow_down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid black;
+    transform: rotate(180deg);
+    margin-left: 95%;
+}
+
+
+.margin_arrow{
+    margin-top: 8%;
+    margin-bottom: 20%;
+}
+
+.btn_center{
+    margin-left: 88%;
+}
+
+.col-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 16px; /* Taille de police des boutons */
+    padding: 10px 20px; /* Rembourrage des boutons */
+    width: 100%; /* Largeur des boutons en pourcentage */
+    height: 100%; /* Hauteur des boutons en pixels */
+}
+.container-bv {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  .bv {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: rgb(66, 65, 65);
+    outline: none;
+    text-align: center;
+  }
+  
+  .bv:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+  }
+  
+  .p-txt {
+    font-size: 1.2em;
+    line-height: 150%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    letter-spacing: .5px;
+  }
